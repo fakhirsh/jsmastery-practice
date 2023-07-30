@@ -14,3 +14,8 @@ https://www.youtube.com/watch?v=XxXyfkrP298&t=298s
 https://www.youtube.com/watch?v=XxXyfkrP298&t=16997s
 
 ### References
+
+## 3. Portfolio site using Three.js
+https://www.youtube.com/watch?v=tllZWCQZ9_0&t=23535s
+
+### References
