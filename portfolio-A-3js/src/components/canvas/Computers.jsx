@@ -1,10 +1,15 @@
-import {Suspense, useEffect, useState} from 'react'
-import {Canvas} from '@react-three/fiber'
+import {Suspense, useEffect, useState, useRef} from 'react'
+import {Canvas, useFrame} from '@react-three/fiber'
 import {OrbitControls, Preload, useGLTF} from '@react-three/drei'
 import CanvasLoader from '../Loader'
 
 const Computers = ({isMobile}) => {
+  // const ref = useRef()
   const computer = useGLTF('./desktop_pc/scene.gltf')
+
+  // useFrame((state, delta) => {
+  //   ref.current.rotation.y -= delta / 20;
+  // })
 
   return (
     <mesh>
